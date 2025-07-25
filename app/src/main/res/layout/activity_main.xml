@@ -7,7 +7,6 @@
     android:padding="24dp"
     tools:context=".MainActivity">
 
-    <!-- Ô nhập số tiền -->
     <EditText
         android:id="@+id/editTextText2"
         android:layout_width="0dp"
@@ -21,7 +20,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <!-- Nhóm chọn phần trăm -->
     <RadioGroup
         android:id="@+id/radioGroup"
         android:layout_width="wrap_content"
@@ -51,7 +49,6 @@
             android:text="35%" />
     </RadioGroup>
 
-    <!-- TextView hiển thị tiền bo -->
     <TextView
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
@@ -64,7 +61,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <!-- TextView hiển thị tổng tiền -->
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
